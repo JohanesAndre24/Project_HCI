@@ -1,0 +1,62 @@
+section.merchandise {
+  padding: 1rem 0;
+}
+
+section.merchandise .row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+section.merchandise .row.right {
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+section.merchandise .row .big {
+  object-fit: cover;
+  width: 550px;
+  height: 400px;
+}
+
+section.merchandise .row .grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+section.merchandise .row.right .grid {
+  max-width: 410px;
+}
+
+section.merchandise .row .grid img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+}
+
+@media (max-width: 1010px) {
+  section.merchandise .row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section.merchandise .row.right {
+    flex-direction: column;
+    /* gap: 2px; */
+  }
+
+  section.merchandise .row .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+}

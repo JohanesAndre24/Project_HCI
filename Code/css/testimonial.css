@@ -1,0 +1,50 @@
+.text-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-header h4 {
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.stories {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 35px 0;
+}
+
+.story {
+  max-width: 400px;
+  border: 5.5px solid #d99879;
+  border-radius: 10px;
+  padding: 20px 0;
+}
+
+.story .cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.story .cover img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.story .desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story .desc p {
+  max-width: 65%;
+}

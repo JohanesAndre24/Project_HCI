@@ -1,0 +1,41 @@
+section.slider-thumb {
+  padding-top: 1.5rem;
+}
+
+section.slider-thumb h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+section.slider-thumb > .slider-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.slider-thumb > .slider-image .slider .slide:not(.active){
+  display: none;
+}
+
+section.slider-thumb > .slider-image .slider {
+  min-height: 400px;
+}
+
+section.album {
+  padding-top: 50px;
+}
+
+section.album h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+section.album .image {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+section.album.merchandise {
+  padding-bottom: 50px;
+}

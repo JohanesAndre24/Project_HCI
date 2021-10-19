@@ -1,0 +1,70 @@
+.text-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-header h4 {
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+
+form label {
+  display: block;
+}
+
+.input-agree label {
+  display: inline-block;
+}
+
+.input-cont,
+.input-agree {
+  padding: 5px 0;
+}
+
+.input-cont label {
+  font-size: 1.2rem;
+}
+
+.input-cont input[type="text"],
+.input-cont input[type="email"],
+.input-cont input[type="number"],
+.input-cont input[type="password"] {
+  min-width: 300px;
+  padding: 0.25rem;
+  border-color: #e7b88a;
+}
+
+input[type="radio"] {
+  margin: 5px;
+}
+
+.input-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+button {
+  padding: 0.8em 1.4em;
+  outline: none;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+  background-color: #f4cca4;
+  border-radius: 5px;
+  color: #223a2f;
+}
+
+button:hover {
+  background-color: #e7b88a;
+  cursor: pointer;
+}
